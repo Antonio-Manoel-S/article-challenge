@@ -1,7 +1,41 @@
 body{
-  
+  background-color: hsl(210, 46%, 95%);
+  align-items: center;
+  justify-content: center;
+  display:flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 .slider{
   width:500px;
-  
+  background-color:white;
+  display:flex;
+}
+.drawers{
+  width:200px;
+}
+.panel{
+  display:flex;
+}
+h1{
+  color:hsl(214, 17%, 51%);
+}
+.title{
+  font-size: 20px;
+}
+.name{
+  font-size:12px;
+}
+p{
+  color:hsl(212, 23%, 69%);
+}
+.date{
+  font-size:8px;
+}
+.desc{
+  font-size: 13px;
+}
+.share{
+  background-color:hsl(217, 19%, 35%);
+  display:none;
 }
