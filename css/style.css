@@ -8,16 +8,37 @@ body{
 }
 .slider{
   width:700px;
-  height: 300px;
+  height: 260px;
   background-color:white;
   display:flex;
+  justify-content: center;
 }
 .drawers{
   max-width: 300px;
 }
+.michelle{
+  max-width: 50px;
+  border-radius: 25px;
+}
 .panel{
   display:flex;
   flex-direction: column;
+  padding:35px;
+  gap:15px;
+}
+.card{
+  display:flex;
+  justify-content:start; 
+  max-width:325px;
+  background-color:gray;
+}
+.cardDesc{
+  display:flex;
+  flex-direction: column;
+  gap:5px;
+  justify-content: center;
+  padding-left: 10px;
+  
 }
 h1{
   color:hsl(214, 17%, 51%);
@@ -26,13 +47,13 @@ h1{
   font-size: 20px;
 }
 .name{
-  font-size:12px;
+  font-size:14px;
 }
 p{
   color:hsl(212, 23%, 69%);
 }
 .date{
-  font-size:8px;
+  font-size:10px;
 }
 .desc{
   font-size: 13px;
@@ -41,7 +62,11 @@ p{
   background-color:hsl(217, 19%, 35%);
   display:none;
 }
-
+.sharebtn{
+  width:30px;
+  height:30px;
+  border-radius:25px;
+}
 
 .attribution { 
   font-size: 12px; 
