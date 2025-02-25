@@ -7,12 +7,13 @@ body{
   min-height: 100vh;
 }
 .slider{
-  width:500px;
+  width:700px;
+  height: 300px;
   background-color:white;
   display:flex;
 }
 .drawers{
-  width:200px;
+  max-width: 300px;
 }
 .panel{
   display:flex;
@@ -39,4 +40,14 @@ p{
 .share{
   background-color:hsl(217, 19%, 35%);
   display:none;
+}
+
+
+.attribution { 
+  font-size: 12px; 
+  text-align: center; 
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
 }
