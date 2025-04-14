@@ -66,12 +66,33 @@ p{
   line-height: 1.5;
 }
 .share.hidden{
-  background-color:red;
   display:none;
 }
 .share{
-  background-color:blue;
-  width:100px;
+  width:200px;
+  position: absolute;
+  bottom: 100%;
+  left: 95%;
+  transform: translateX(-50%);
+  background-color: hsl(217, 19%, 35%);
+  padding: 10px 15px;
+  border-radius: 8px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  min-width: 200px;
+  height:30px;
+}
+.share::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 6px;
+  border-style: solid;
+  border-color: hsl(217, 19%, 35%) transparent transparent transparent;
 }
 .sharebtn{
   width:30px;
@@ -90,4 +111,13 @@ p{
 
 .attribution a { 
   color: hsl(228, 45%, 44%); 
+}
+.facons{
+  right:10%;
+  position:absolute;
+}
+.sharep{
+  color:white;
+  right:60%;
+  position:absolute;
 }
