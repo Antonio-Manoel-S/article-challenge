@@ -12,12 +12,13 @@ body{
   background-color:white;
   display:flex;
   justify-content: center;
+  position:relative;
 }
 .drawers{
   max-width: 300px;
 }
 .michelle{
-  max-width: 50px;
+  max-width: 40px;
   border-radius: 25px;
 }
 .panel{
@@ -29,8 +30,10 @@ body{
 .card{
   display:flex;
   justify-content:start; 
-  max-width:325px;
-  background-color:gray;
+  width:325px;
+  position:absolute;
+  bottom:5%;
+  
 }
 .cardDesc{
   display:flex;
@@ -41,7 +44,7 @@ body{
   
 }
 h1{
-  color:hsl(214, 17%, 51%);
+  color:hsl(217, 19%, 35%);
 }
 .title{
   font-size: 20px;
@@ -50,13 +53,15 @@ h1{
   font-size:14px;
 }
 p{
-  color:hsl(212, 23%, 69%);
+ color: hsl(214, 17%, 51%);
 }
 .date{
   font-size:10px;
 }
 .desc{
   font-size: 13px;
+  color:hsl(217, 19%, 35%);
+  line-height: 1.5;
 }
 .share{
   background-color:hsl(217, 19%, 35%);
@@ -66,6 +71,10 @@ p{
   width:30px;
   height:30px;
   border-radius:25px;
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .attribution { 
