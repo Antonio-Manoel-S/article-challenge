@@ -33,8 +33,7 @@ body{
   display:flex;
   justify-content:start; 
   width:325px;
-  position:absolute;
-  bottom:5%;
+  position:relative;
   
 }
 .cardDesc{
@@ -93,6 +92,7 @@ p{
   border-width: 6px;
   border-style: solid;
   border-color: hsl(217, 19%, 35%) transparent transparent transparent;
+  
 }
 .sharebtn{
   width:30px;
