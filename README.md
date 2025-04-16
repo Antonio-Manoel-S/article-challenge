@@ -23,4 +23,4 @@ Thanks for checking out this front-end coding challenge.
 
 ## Acknowledgments
 
-That alignment part was a nightmare. I like comprehend every code, but, the position relative thing don't enter on my head. And, as i was procrastinating for a month, i give up smore deeply. I want to learn more JavaScript things.
+That alignment part was a nightmare. I like comprehend every code, but, the position relative thing don't enter on my head. And, as i was procrastinating for a month, i give up know deeply. I want to learn more JavaScript codes.
