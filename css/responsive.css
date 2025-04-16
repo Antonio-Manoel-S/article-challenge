@@ -1,0 +1,19 @@
+@media(max-width:468px){
+  .slider{
+    width:300px;
+    flex-direction: column;
+    height:550px;
+  }
+  .sharebtn{
+  right: 100px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.share{
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-23%);
+  min-width: 175px;
+}
+  
+}
